@@ -6,5 +6,13 @@
 # print("hello " + "world")
 
 greeting = 'Hello'
-name = input("Please enter your name: ")
+# name = input("Please enter your name: ")
+name = 'John'
 print(greeting + ' ' + name)
+
+age = 31
+print(type(greeting))
+print(type(age))
+
+age = "2 years"
+print("age after re-binding:", type(age))
